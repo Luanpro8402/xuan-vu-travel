@@ -17,27 +17,27 @@ const carPrice = [
 ];
 
 const dichVu = [
-  { text: 'Cho thuê xe đi công tác các tỉnh từ 4 chỗ, 4 chỗ có tài xế', img: 'src/assets/car-2.png' },
-  { text: 'Cho thuê xe phục vụ đám cưới tại Khánh Hoà', img: 'src/assets/car-4.png' },
-  { text: 'Cho thuê xe đưa đón sân bay Cam Ranh Nha Trang giá rẻ', img: 'src/assets/car-7.png' },
-  { text: 'Cho thuê xe đi Tour trong tỉnh và ngoài tỉnh Khánh Hoà', img: 'src/assets/car-5.png' },
-  { text: 'Cho thuê xe riêng đi về quê, đi tỉnh tại Nha Trang Khánh Hoà', img: 'src/assets/car-3.png' },
-  { text: 'Cho thuê xe sự kiện, tổ chức sự kiện tại khu du lịch Nha Trang', img: 'src/assets/car-6.png' },
+  { text: 'Cho thuê xe đi công tác các tỉnh từ 4 chỗ, 4 chỗ có tài xế', img: '/car/car-2.png' },
+  { text: 'Cho thuê xe phục vụ đám cưới tại Khánh Hoà', img: '/car/car-4.png' },
+  { text: 'Cho thuê xe đưa đón sân bay Cam Ranh Nha Trang giá rẻ', img: '/car/car-7.png' },
+  { text: 'Cho thuê xe đi Tour trong tỉnh và ngoài tỉnh Khánh Hoà', img: '/car/car-5.png' },
+  { text: 'Cho thuê xe riêng đi về quê, đi tỉnh tại Nha Trang Khánh Hoà', img: '/car/car-3.png' },
+  { text: 'Cho thuê xe sự kiện, tổ chức sự kiện tại khu du lịch Nha Trang', img: '/car/car-6.png' },
 ]
 
 const taxiData = [
   {
-    img: 'src/assets/z4935296259114_fac59cd901b401c2f6738eb13a37760c.jpg',
+    img: '/car/car_international.jpg',
     title: 'Xe taxi 4 chỗ',
     price: '1,100,000đ'
   },
   {
-    img: 'src/assets/z4935296050434_4ccb2e427eec861429bfffc3f64ef80d.jpg',
+    img: '/car/car_parking.jpg',
     title: 'Xe taxi 7 chỗ',
     price: '1,500,000đ'
   },
   {
-    img: 'src/assets/z4912190560878_ee213bd83f6aff10547976526701a991.jpg',
+    img: '/car/car_far_light.jpg',
     title: 'Xe taxi 16 chỗ ',
     price: '4,100,000đ'
   },
@@ -48,7 +48,7 @@ const Home = () => {
   return (
     <div className="bg-[#eaeaea]">
       <div>
-        <img className="w-full" src="/src/assets/z4935296050434_4ccb2e427eec861429bfffc3f64ef80d.jpg" />
+        <img className="w-full" src="/car/car_parking.jpg" />
       </div>
       <section className="w-full bg-blue-300 p-9 text-white">
         <h1 className="text-5xl text-center font-bold">Xuân Vũ Travel</h1>
